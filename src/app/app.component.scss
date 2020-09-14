@@ -1,3 +1,25 @@
-body {
-    background-color: #aaa;
+
+$padding: 6px;
+
+
+
+nav {
+  ul {
+    margin: 0;
+    padding: $padding;
+    list-style: none;
+  }
+
+  li { display: inline-block; } 
+
+  a {
+    display: block;
+    padding: $padding 12px;
+    text-decoration: none;
+  }
+}
+div {  border:1px solid red;}
+.row {
+  margin:20px;
+  border:1px solid red;
 }
